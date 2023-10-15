@@ -1,0 +1,320 @@
+body{
+    width:100%;
+    height: 100vh;
+    background-image: url(http://cdn.shopify.com/s/files/1/0607/5056/1539/articles/netflix.jpg?v=1669877376);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding: 10px 10px;
+    float: right;
+    margin-right: 2px;
+    z-index: 1;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+
+ .btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    float:right;
+
+} 
+.btn-box a{
+    text-decoration: none;
+}
+.navigation button{
+    
+        width: 80px;
+        height: 35px;
+        margin: 0 10px;
+        padding: 0px 18px;
+        justify-content: left;
+        background:rgb(255, 0, 0);
+        border-radius: 0px;
+        border: 0;
+        outline: none;
+        color: #fff;
+        float:right;
+    
+     
+}
+
+.content{
+    width: 100%;
+    min-height: 70vh;
+    color: #fff; 
+     padding-top: 20px;
+     top: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+} 
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.content p1{
+    font-size: 60px;
+    
+    
+}
+
+.content p2{
+    font-size: 60px;
+    text-align: center;
+    
+}
+.content h3{
+    color:white;
+}
+/* .content form{
+    left: 450px;
+} */
+.content form{
+    left: 450px;
+}
+
+input {
+    height: 50px;
+}
+.content button{
+    width: 100px;
+    height: 50px;
+    justify-content: left;
+    background:rgb(255, 0, 0);
+    border-radius: 0px;
+    font-size: 90%;
+    color: #fff;
+    padding-top: 15px;
+
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    background: black;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 50px 0;
+
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    color:white;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col img{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+.children{
+    padding: 50px 12%;
+    font-size: 22px;
+    background: black;
+}
+.row1{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 50px 0;
+
+}
+.img-col1{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col1 img{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+.text-col1{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    color:white;
+}
+.download{
+    padding: 50px 12%;
+    font-size: 22px;
+    background: black;
+}
+.row2{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 50px 0;
+
+}
+.text-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    color:white;
+}
+.img-col2{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col2 img{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+.watch{
+    padding: 50px 12%;
+    font-size: 22px;
+    background: black;
+}
+.row3{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap:wrap;
+    padding: 50px 0;
+
+}
+.img-col3{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+
+}
+.img-col3 img{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+.text-col3{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    color:white;
+}
+.faq{
+    background: black;
+
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    /* background-color: black; */
+    color:white;
+}
+.accordian{
+    margin:60px auto;
+    width:100%;
+    max-width:750px;
+}
+.accordian li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordian li label{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor:pointer;
+    position: relative;
+
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 10px;
+    color:white;
+    /* height:100px; */
+}
+input[type="radio"]{
+    display: none;
+    
+}
+.accordian .content{
+    background: #303030;
+    color:white;
+    text-align: left;
+    padding: 10px;
+    max-height: 0;
+    /* width:100%; */
+    overflow:hidden;
+    transition: max-height 0.5s, padding 0.5s;
+    
+    /* font-family: Arial, Helvetica, sans-serif; */
+    
+}
+.accoordian input[type="radio"]:checked + label +.content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordian input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
